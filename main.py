@@ -201,7 +201,6 @@ def choose_category(message):
 
 @bot.message_handler(func=lambda message: message.text == Command.bot_about)
 def choose_category(message):
-    bot.send_message(message.chat.id, bot_about_msg, parse_mode="Markdown")
     add_custom_word(message.chat.id)
 
 @bot.message_handler(func=lambda message: True, content_types=['text'])
