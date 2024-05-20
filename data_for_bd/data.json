@@ -1,0 +1,803 @@
+[{
+        "model": "category_name",
+        "fields": {
+            "id": 1,
+            "name": "python"
+        }
+    }, 
+    {
+        "model": "category_name",
+        "fields": {
+            "id": 2,
+            "name": "colors"
+        }
+    },
+    {
+        "model": "category_name",
+        "fields": {
+            "id": 3,
+            "name": "users_words"
+        }
+    },
+    {
+        "model": "status_name",
+        "fields": {
+            "name": "main_menu"
+        }
+    },
+    {
+        "model": "status_name",
+        "fields": {
+            "name": "education"
+        }
+    },
+    {
+        "model": "status_name",
+        "fields": {
+            "name": "study"
+        }
+    },
+    {
+        "model": "status_name",
+        "fields": {
+            "name": "studied"
+        }
+    },
+    {
+        "model": "status_name",
+        "fields": {
+            "name": "skipped"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Variable",
+            "ru": "Переменная"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Function",
+            "ru": "Функция"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Loop",
+            "ru": "Цикл"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Conditional",
+            "ru": "Условие"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "List",
+            "ru": "Список"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Dictionary",
+            "ru": "Словарь"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Tuple",
+            "ru": "Кортеж"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Set",
+            "ru": "Множество"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "String",
+            "ru": "Строка"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Integer",
+            "ru": "Целое число"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Float",
+            "ru": "Вещественное число"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Boolean",
+            "ru": "Булев тип"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Module",
+            "ru": "Модуль"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Package",
+            "ru": "Пакет"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Import",
+            "ru": "Импорт"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Class",
+            "ru": "Класс"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Object",
+            "ru": "Объект"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Method",
+            "ru": "Метод"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Attribute",
+            "ru": "Атрибут"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Exception",
+            "ru": "Исключение"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Try",
+            "ru": "Попытка"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Except",
+            "ru": "Исключение"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Finally",
+            "ru": "Наконец"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Lambda",
+            "ru": "Лямбда"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Yield",
+            "ru": "Выдача"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Generator",
+            "ru": "Генератор"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Decorator",
+            "ru": "Декоратор"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Iteration",
+            "ru": "Итерация"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Index",
+            "ru": "Индекс"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Slice",
+            "ru": "Срез"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Global",
+            "ru": "Глобальный"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Local",
+            "ru": "Локальный"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Nonlocal",
+            "ru": "Нелокальный"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Script",
+            "ru": "Скрипт"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Compiler",
+            "ru": "Компилятор"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Interpreter",
+            "ru": "Интерпретатор"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Syntax",
+            "ru": "Синтаксис"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Indentation",
+            "ru": "Отступ"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Comment",
+            "ru": "Комментарий"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Documentation",
+            "ru": "Документация"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Library",
+            "ru": "Библиотека"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Framework",
+            "ru": "Фреймворк"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Environment",
+            "ru": "Среда"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Virtual Environment",
+            "ru": "Виртуальная среда"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Data Type",
+            "ru": "Тип данных"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "File",
+            "ru": "Файл"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Read",
+            "ru": "Чтение"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Write",
+            "ru": "Запись"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Append",
+            "ru": "Добавление"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 1,
+            "en": "Error",
+            "ru": "Ошибка"
+        }
+    },
+    {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Red",
+            "ru": "Красный"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Blue",
+            "ru": "Синий"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Green",
+            "ru": "Зелёный"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Yellow",
+            "ru": "Жёлтый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Black",
+            "ru": "Чёрный"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "White",
+            "ru": "Белый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Orange",
+            "ru": "Оранжевый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Purple",
+            "ru": "Фиолетовый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Brown",
+            "ru": "Коричневый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Pink",
+            "ru": "Розовый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Gray",
+            "ru": "Серый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Silver",
+            "ru": "Серебряный"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Gold",
+            "ru": "Золотой"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Beige",
+            "ru": "Бежевый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Ivory",
+            "ru": "Слоновая кость"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Teal",
+            "ru": "Бирюзовый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Maroon",
+            "ru": "Бордовый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Navy",
+            "ru": "Тёмно-синий"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Lime",
+            "ru": "Лайм"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Olive",
+            "ru": "Оливковый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Cyan",
+            "ru": "Голубой"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Magenta",
+            "ru": "Пурпурный"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Coral",
+            "ru": "Коралловый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Turquoise",
+            "ru": "Тюркс"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Indigo",
+            "ru": "Индиго"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Violet",
+            "ru": "Сиреневый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Lavender",
+            "ru": "Лавандовый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Peach",
+            "ru": "Персиковый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Mint",
+            "ru": "Мятный"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Charcoal",
+            "ru": "Угольный"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Aqua",
+            "ru": "Аква"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Cream",
+            "ru": "Кремовый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Fuchsia",
+            "ru": "Фуксия"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Mauve",
+            "ru": "Мальва"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Mustard",
+            "ru": "Горчичный"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Ochre",
+            "ru": "Охра"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Plum",
+            "ru": "Сливовый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Rust",
+            "ru": "Ржавчина"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Sand",
+            "ru": "Песочный"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Sapphire",
+            "ru": "Сапфир"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Scarlet",
+            "ru": "Алый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Tan",
+            "ru": "Загар"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Amber",
+            "ru": "Янтарный"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Emerald",
+            "ru": "Изумрудный"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Jade",
+            "ru": "Яшма"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Ruby",
+            "ru": "Рубиновый"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Sepia",
+            "ru": "Сепия"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Taupe",
+            "ru": "Топленое молоко"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Ultramarine",
+            "ru": "Ультрамарин"
+        }
+    }, {
+        "model": "vocabulary",
+        "fields": {
+            "category_id": 2,
+            "en": "Wheat",
+            "ru": "Пшеничный"
+        }
+    }
+]
