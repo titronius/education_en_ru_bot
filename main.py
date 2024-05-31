@@ -119,6 +119,7 @@ def callback_inline(call):
                     bot.send_message(call.message.chat.id, "🤷 Вы уже отвечали на этот вопрос, продолжите ваше обучение:", parse_mode = "Markdown")
                 else:
                     UserWordStatus.set_status_word(call.message.chat.id, word_id, 4)
+                    bot.send_message(call.message.chat.id, "👌🏻 Верный ответ!", parse_mode = "Markdown")
                 study_category(call.message.chat.id, category_id)
             else:
                 bot.send_message(call.message.chat.id, "🙅🏻 Неправильный ответ, попробуйте снова.", parse_mode = "Markdown")
